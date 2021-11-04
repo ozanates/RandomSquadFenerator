@@ -1,0 +1,129 @@
+#players{
+    position: relative;
+}
+
+#players img{
+    margin: auto;
+}
+
+.fbplayer{
+    position: absolute;
+    background-color: #1d203f;
+    color: #fbf15e;
+    min-width: 50px;
+    white-space: nowrap;
+    padding: 4px;
+    font-size: 2vw;
+}
+
+#player1{
+    left: 10%;
+    top: 48%;
+} 
+
+#player2{
+    left: 24%;
+    top: 32%;
+}
+
+#player3{
+    left: 24%;
+    top: 48%;
+}
+
+#player4{
+    left: 24%;
+    top: 64%;
+}
+
+#player5{
+    left: 47%;
+    top: 25%;
+}
+
+#player6{
+    left: 47%;
+    top: 40%;
+}
+
+#player7{
+    left: 47%;
+    top: 58%;
+}
+
+#player8{
+    left: 47%;
+    top: 73%;
+}
+
+#player9{
+    left: 70%;
+    top: 32%;
+}
+
+#player10{
+    left: 70%;
+    top: 48%;
+}
+
+#player11{
+    left: 70%;
+    top: 64%;
+}
+
+/* #player1{
+    margin-left: 80px;
+    margin-top: 255px;
+} 
+
+#player2{
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+#player3{
+    margin-left: 200px;
+    margin-top: 255px;
+}
+
+#player4{
+    margin-left: 200px;
+    margin-top: 360px;
+}
+
+#player5{
+    margin-left: 350px;
+    margin-top: 102px;
+}
+
+#player6{
+    margin-left: 350px;
+    margin-top: 202px;
+}
+
+#player7{
+    margin-left: 350px;
+    margin-top: 302px;
+}
+
+#player8{
+    margin-left: 350px;
+    margin-top: 402px;
+}
+
+#player9{
+    margin-left: 510px;
+    margin-top: 150px;
+}
+
+#player10{
+    margin-left: 510px;
+    margin-top: 255px;
+}
+
+#player11{
+    margin-left: 510px;
+    margin-top: 360px;
+}
+
+*/
