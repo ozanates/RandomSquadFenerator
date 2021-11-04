@@ -1,7 +1,5 @@
 $( document ).ready(function() {
-    console.log( "ready!" );
-
-    $("#fbbutton").click(() => getSquad());
+    $("#vitor").click(() => getSquad());
 
     getSquad();
 });
@@ -48,9 +46,6 @@ var pos = {
 };
 
 var eleven = new Array(10);
-
-//var eleven = [1, 41, 3, 37, 16, 17, 26, 21, 8, 19, 13];
-
 var ps = ["gk", "dlc", "dc", "drc", "lm", "dm", "dm", "rm", "lf", "st", "rf"];
 
 function getSquad(){
@@ -61,8 +56,6 @@ function getSquad(){
         var psi = ps[i];
         var players = pool[psi];
         var id = getRandomItem(players);
-        //debugger;
-        //pool[psi] = players.filter(x => x !== p);
         removePlayer(pool, id);
         eleven[i] = id;
     }
@@ -95,6 +88,5 @@ function getRandomItem(items)
 {
     var i = Math.floor(Math.random()*items.length);
     var val = items[i];
-    //items.splice(i, 1);
     return val;
 }

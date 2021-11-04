@@ -6,6 +6,13 @@
     margin: auto;
 }
 
+#vitor {
+    left: 0; 
+    top: 0px; 
+    max-width: 100px; 
+    cursor: pointer;
+}
+
 .fbplayer{
     position: absolute;
     background-color: #1d203f;
